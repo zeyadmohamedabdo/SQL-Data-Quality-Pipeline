@@ -60,6 +60,3 @@ Removed columns that were no longer needed after the cleaning process (`OwnerAdd
 
 
 
-This file is likely written for **Microsoft SQL Server (T-SQL)** because it typically uses functions like `PARSENAME` (which is unique to T-SQL) and `ISNULL`.
-
-  * If you want to be extra precise, you can change the orange badge in the README from `SQL` to `T--SQL`.
