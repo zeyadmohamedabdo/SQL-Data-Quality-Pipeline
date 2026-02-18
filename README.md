@@ -43,13 +43,14 @@ Identified and removed duplicate rows based on unique identifiers (ParcelID, Pro
 ### 6. Delete Unused Columns
 Removed columns that were no longer needed after the cleaning process (`OwnerAddress`, `TaxDistrict`, `PropertyAddress`, `SaleDate`) to streamline the dataset.
 
-## 🧠 SQL Skills Used
+## 🧠 SQL Skills Used 
 * **Joins:** Self Joins to populate missing data.
 * **CTEs:** For readability and handling duplicate removal logic.
 * **Windows Functions:** `ROW_NUMBER`, `PARTITION BY`.
 * **String Manipulation:** `PARSENAME`, `SUBSTRING`, `CHARINDEX`, `REPLACE`.
 * **Data Type Conversion:** `CONVERT`, `CAST`.
 * **Logic:** `CASE` Statements.
+
 
 ## 🚀 How to Use
 1.  Download the raw data (Nashville Housing Data).
